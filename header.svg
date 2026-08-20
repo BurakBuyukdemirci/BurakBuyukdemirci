@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" fill="none" role="img" aria-label="Burak Buyukdemirci — Software and AI Engineer">
+  <title>Burak Büyükdemirci — Software &amp; AI Engineer</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070B14"/>
+      <stop offset="0.5" stop-color="#0A1020"/>
+      <stop offset="1" stop-color="#060A12"/>
+    </linearGradient>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#818CF8" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="250" y1="0" x2="950" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F1F5F9"/>
+      <stop offset="0.30" stop-color="#67E8F9"/>
+      <stop offset="0.55" stop-color="#A78BFA"/>
+      <stop offset="0.80" stop-color="#F0ABFC"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+      <animate attributeName="x1" values="-450;250;-450" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="250;950;250" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="ruleGrad" x1="380" y1="0" x2="820" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="0.65" stop-color="#A78BFA" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="baseGlow" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38BDF8" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+      <animate attributeName="x1" values="-700;500;-700" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100;1900;100" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="auroraA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#0EA5E9" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auroraB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auroraC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#EC4899" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#EC4899" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="mesh" width="46" height="46" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+      <line x1="0" y1="0" x2="0" y2="46" stroke="#93C5FD" stroke-opacity="0.06" stroke-width="1"/>
+      <line x1="0" y1="0" x2="46" y2="0" stroke="#93C5FD" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="card">
+      <rect x="8" y="8" width="1184" height="314" rx="22"/>
+    </clipPath>
+
+    <style>
+      .sans { font-family: 'Inter','Segoe UI','Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono','SF Mono', ui-monospace, Menlo, Consolas, monospace; }
+      .fa { animation: fa 16s ease-in-out infinite; }
+      .fb { animation: fb 20s ease-in-out infinite; }
+      .fc { animation: fc 24s ease-in-out infinite; }
+      @keyframes fa { 0%,100%{transform:translate(0,0)} 50%{transform:translate(34px,-20px)} }
+      @keyframes fb { 0%,100%{transform:translate(0,0)} 50%{transform:translate(-38px,18px)} }
+      @keyframes fc { 0%,100%{transform:translate(0,0)} 50%{transform:translate(18px,22px)} }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect x="8" y="8" width="1184" height="314" rx="22" fill="url(#bg)"/>
+    <rect x="8" y="8" width="1184" height="314" rx="22" fill="url(#mesh)"/>
+
+    <g class="fa"><ellipse cx="230" cy="60" rx="360" ry="210" fill="url(#auroraA)"/></g>
+    <g class="fb"><ellipse cx="980" cy="290" rx="380" ry="230" fill="url(#auroraB)"/></g>
+    <g class="fc"><ellipse cx="620" cy="330" rx="420" ry="180" fill="url(#auroraC)"/></g>
+
+    <!-- geometric accents -->
+    <g stroke="#38BDF8" stroke-opacity="0.16" fill="none" stroke-width="1.2">
+      <polygon points="118,60 172,90 172,150 118,180 64,150 64,90" class="fa"/>
+      <polygon points="1092,178 1140,206 1140,262 1092,290 1044,262 1044,206" class="fb"/>
+    </g>
+    <g stroke="#A78BFA" stroke-opacity="0.20" fill="none" stroke-width="1.2">
+      <polygon points="196,196 232,216 232,258 196,278 160,258 160,216" class="fc"/>
+      <polygon points="1004,58 1044,80 1044,126 1004,148 964,126 964,80" class="fc"/>
+    </g>
+    <g fill="#67E8F9">
+      <circle cx="150" cy="240" r="2.5" opacity="0.7"><animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="1064" cy="120" r="2.5" opacity="0.5"><animate attributeName="opacity" values="0.8;0.15;0.8" dur="4.2s" repeatCount="indefinite"/></circle>
+      <circle cx="256" cy="98" r="2" opacity="0.5"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="944" cy="236" r="2" opacity="0.6"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.8s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- corner brackets -->
+    <g stroke="#22D3EE" stroke-opacity="0.55" stroke-width="1.6" fill="none" stroke-linecap="round">
+      <path d="M44 82 V52 H84"/>
+      <path d="M1156 248 V278 H1116"/>
+    </g>
+
+    <!-- eyebrow -->
+    <text class="mono" x="600" y="94" text-anchor="middle" font-size="13.5" letter-spacing="5.5" fill="#5EEAD4">SOFTWARE &amp; AI ENGINEER</text>
+
+    <!-- name -->
+    <text class="sans" x="600" y="168" text-anchor="middle" font-size="60" font-weight="700" letter-spacing="-1.6" fill="url(#nameGrad)">Burak Büyükdemirci</text>
+
+    <!-- rule -->
+    <rect x="380" y="190" width="440" height="1.6" fill="url(#ruleGrad)"/>
+
+    <!-- subtitle -->
+    <text class="sans" x="600" y="223" text-anchor="middle" font-size="19" font-weight="500" fill="#CBD5E1">Full-Stack Web &#160;·&#160; Mobile &amp; Game &#160;·&#160; SaaS Platforms &#160;·&#160; Applied AI</text>
+
+    <!-- meta chips -->
+    <g class="mono" font-size="12.5">
+      <g>
+        <rect x="350" y="252" width="176" height="28" rx="14" fill="#0EA5E9" fill-opacity="0.10" stroke="#38BDF8" stroke-opacity="0.30"/>
+        <text x="438" y="270" text-anchor="middle" fill="#7DD3FC">5 mobile · 3 web apps</text>
+      </g>
+      <g>
+        <rect x="536" y="252" width="140" height="28" rx="14" fill="#7C3AED" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.30"/>
+        <text x="606" y="270" text-anchor="middle" fill="#C4B5FD">Likya Bilişim</text>
+      </g>
+      <g>
+        <rect x="686" y="252" width="164" height="28" rx="14" fill="#EC4899" fill-opacity="0.10" stroke="#F472B6" stroke-opacity="0.28"/>
+        <text x="768" y="270" text-anchor="middle" fill="#F9A8D4">Ankara, Türkiye</text>
+      </g>
+    </g>
+
+    <rect x="8" y="320" width="1184" height="2" fill="url(#baseGlow)"/>
+  </g>
+
+  <rect x="8.5" y="8.5" width="1183" height="313" rx="21.5" fill="none" stroke="url(#edge)" stroke-width="1"/>
+</svg>
